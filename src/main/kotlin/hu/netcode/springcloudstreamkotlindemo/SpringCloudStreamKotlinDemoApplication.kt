@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class SpringCloudStreamKotlinDemoApplication
 
 fun main(args: Array<String>) {
-	runApplication<SpringCloudStreamKotlinDemoApplication>(*args)
+    runApplication<SpringCloudStreamKotlinDemoApplication>(*args)
 }
