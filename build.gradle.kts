@@ -35,6 +35,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-actuator")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.cloud:spring-cloud-stream")
+    implementation("org.springframework.cloud:spring-cloud-stream-binder-rabbit")
     testImplementation("com.ninja-squad:springmockk:2.0.0")
     testImplementation("io.mockk:mockk:1.9.3")
     testImplementation("org.springframework.boot:spring-boot-starter-test") {
