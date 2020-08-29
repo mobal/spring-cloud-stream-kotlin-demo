@@ -14,7 +14,7 @@ class Consumer(
 ) {
     private val logger = LoggerFactory.getLogger(javaClass)
 
-    @StreamListener(Sink.REVERSE)
+    @StreamListener(target = Sink.REVERSE)
     fun receive(msg: Message<String>) {
         logger.info("""Message "{}" received for reverse""", msg)
         messagingService.reverseAndReturn(msg)
