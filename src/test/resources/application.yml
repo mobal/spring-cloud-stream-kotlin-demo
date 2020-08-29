@@ -1,0 +1,9 @@
+logging:
+  level:
+    ROOT: WARN
+    springframework:
+      test: WARN
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
